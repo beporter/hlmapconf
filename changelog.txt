@@ -13,6 +13,6 @@
 - bugfix, + enhancement, * contrib, = RELEASE
 ---------------------------------------------
 
-= 0.90 2002-11-22
-  = Initial release.
+= 0.90b 2002-11-25
+  = Preview release to CSReview.
 

@@ -44,7 +44,7 @@ INSTALLING
 ----------
 1) If you're reading this, you've already decompressed the script package.
 
-2)
+2) E-mail or IM Brian!!!
 
 3) 
 
@@ -54,6 +54,7 @@ INSTALLING
 
 USING
 -----
+(BP Notes-to-Self)
 -Put in cstrike dir so you don't need to define global vars.
 -Getting the Tk module.
 -Be warned that the script will not prompt before it overwrites config files.
