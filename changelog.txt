@@ -1,0 +1,18 @@
+/***************************************************************************/
+/* changelog.txt                                                           */
+/*   - ChangeLog for the MapConf script                                    */
+/*   - Description of changes for the MapConf script package               */
+/*   - Distributed under the GPL terms - see the readme for info           */
+/*   - Copyright Brian Porter <beporter@users.sourceforge.net>             */
+/*   - Part of HL MapConf v0.90                                            */
+/***************************************************************************/
+/* CVS $Id$ */
+/***************************************************************************/
+
+---------------------------------------------
+- bugfix, + enhancement, * contrib, = RELEASE
+---------------------------------------------
+
+= 0.90 2002-11-22
+  = Initial release.
+
