@@ -64,7 +64,7 @@ USAGE NOTES
 -----------
 - If you place the script in your mod's directory and call it using 
   ./hlmapconf.pl [args] you can do without editing the internal config
-  variables.
+  variables (assuming you're running a CS1.6 server that is).
   
 - There is a chance there might one day be a visual Tk-based version of
   this script. When that day comes, it will be good for this file to have some
