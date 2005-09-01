@@ -4,13 +4,13 @@
 /*   - Description and use for the HL-MapConf script package               */
 /*   - Distributed under the GPL terms - see the readme (this doc) for info*/
 /*   - Copyright Brian Porter <beporter@users.sourceforge.net>             */
-/*   - Part of HL-MapConf v0.90                                            */
+/*   - Part of HL-MapConf v0.91                                            */
 /***************************************************************************/
 /* CVS $Id$ */
 /***************************************************************************/
 
     HL-MapConf
-    Copyright (C) 2002 Brian Porter     <beporter@users.sourceforge.net>
+    Copyright (C) 2005 Brian Porter     <beporter@users.sourceforge.net>
     All Rights Reserved
 
     This program is free software; you can redistribute it and/or modify
@@ -32,41 +32,54 @@
 DESCRIPTION
 -----------
 
+HLmapconf is a Perl script designed to help Steam-based server admins
+maintain map-specific cfg files. The script provides batch creation and
+modification of cfg files.
+
 
 REQUIRES
 --------
- + A Half-Life server
+ + A Steam-based Half-Life server
  + Perl 5.6+ installed on the game server machine (*nix OR Win)
- + The ability to follow some instructions
  + A bit of common sense
 
 INSTALLING
 ----------
 1) If you're reading this, you've already decompressed the script package.
 
-2) E-mail or IM Brian!!!
+3) Set the internal variables. In order to be easier to use on a daily basis,
+   the script stores the locations of the directories and files it works
+   within inside itself. Open hlmapconf.pl in your favorite text editor and
+   point the config variables at the top of the file to your server's
+   base directory. Set the name of the mod you are using ('cstrike' for
+   Counter-Strike, for example), and the name of your mapcyce file (usually
+   'mapcycle.txt'). Save and close the file.
 
-3) 
+3) Move hlmapconf.pl to wherever you like to keep utilities scripts (probably
+   in your PATH somewhere) and optionally make sure its executable. A detailed
+   description of how to use the script can be found by calling it with the
+   -v argument.
 
-4) 
+USAGE NOTES
+-----------
+- If you place the script in your mod's directory and call it using 
+  ./hlmapconf.pl [args] you can do without editing the internal config
+  variables.
+  
+- There is a chance there might one day be a visual Tk-based version of
+  this script. When that day comes, it will be good for this file to have some
+  info on getting the Tk Perl module.
+  
+- Be warned that the script will not prompt before it overwrites existing
+  config files.
 
-5)
-
-USING
------
-(BP Notes-to-Self)
--Put in cstrike dir so you don't need to define global vars.
--Getting the Tk module.
--Be warned that the script will not prompt before it overwrites config files.
--Mode Descriptions
-  ~Interactive
-  ~Tk
-  ~Batch
-  ~Quick
-  ~Version & Usage
-
+- There are many ways this script could be improved. If you care to do so,
+  please consider submitting your changes back to me to roll into the 
+  SourceForge release so everyone can benefit.
+  
+  
 --
 Thanks and good luck!
 Brian and the HL-MapConf Development Team
 
-/*#######################################################################*/?>
+/*#########################################################################*/
